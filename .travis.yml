@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+- node
+deploy:
+  provider: heroku
+  api_key:
+    secure: mIyPIiGMHNd2DN6WAuuc6c9hEhTLFhyZVUp43A9LRaStSsdSDq2rWv/qlMauHHDK4GRJ3R51vCNSZWXcXGB7SAV8bOdwmMub5wKUNoKHLsufXnDdcrZdR9dc6G3QWNnKSwij/QdLSEVmBkWzlYJZZ8HgVPYgHnCsMdhLd+BK9/Atyn7QfRZLat/8ydAnIfl/V38RwgriXQc+xxlTOfD1dnUCUhSL2DuoAONZ5R6tW7fvd3D6z8EvX5ebPRai5Wc3+OB4pevs3KrlZAuiCtXw4xliu+4dXDqoIygJZJx03gjCM3MSu/e6jAMngJeb0z/KIpgUVUF74sTPbPq86UyAdiwvjI+9JikypL8WuymeJDIEgQfQTIeGiGIVfIeCOQYKtBNbbQKxJ+3Cr0xJeQV0YCkedZR19c7xs/VUqij7BnNsi4uLff3+iyi6h3ZhVeDKizFylDMzQMqhU8absAePKpWvcRCvhCv7uYHMr6SpNZ+Lvm9rph929M3ySO/vPvUC0DoYWXiTDfwyH+aD4lS7RWY6TUMyspJ0CjVjqI8bWL3N5oInrz85uJPdSfB3PE94gd43JbvYAD+iYICZX8qtzFLLud29RAvo42EGk5pWYIZDcEnLiuXbJ0d39heDFcoWNRGTS4gCNm98ccViYBZ2f1QrKqJQ6tm4j2159927sgc=
+  app: lit-taiga-21654
+  on:
+    repo: jiubei/ind-hw
